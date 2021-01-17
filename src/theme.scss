@@ -1,7 +1,7 @@
 //Import Icon scss
 @import "./assets/scss/icons.scss";
 
-//import Light Theme
+//import App scss
 @import "./assets/scss/bootstrap.scss";
 @import "./assets/scss/app.scss";
 
@@ -12,11 +12,6 @@
 // RTL mode
 // @import "./assets/scss/bootstrap.scss";
 // @import "./assets/scss/app-rtl.scss";
-
-
-.accordian-bg-products {
-    background-color: $gray-300;
-}
 
 .nav-link {
     cursor: pointer;
@@ -76,13 +71,4 @@
 input[type="range"] {
     -webkit-appearance: auto!important;
 }
-
-.chat-conversation-height {
-        min-height: 500px;
-}
-
-.expand-cell{
-    cursor: pointer!important;
-}
-
 

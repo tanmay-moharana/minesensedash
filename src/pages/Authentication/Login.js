@@ -19,7 +19,7 @@ class Login extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {  username : "admin@minesense.in", password : "123456" }
+        this.state = {  username : "admin@themesdesign.in", password : "123456" }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
@@ -55,11 +55,11 @@ class Login extends Component {
                                         <div>
                                             <div className="text-center">
                                                 <div>
-                                                    <Link to="/" className="logo"><img src={logodark} height="40" alt="logo"/></Link>
+                                                    <Link to="/" className="logo"><img src={logodark} height="20" alt="logo"/></Link>
                                                 </div>
     
                                                 <h4 className="font-size-18 mt-4">Welcome Back !</h4>
-                                                <p className="text-muted">Sign in to continue to Minesense.</p>
+                                                <p className="text-muted">Sign in to continue to Nazox.</p>
                                             </div>
 
                                            
@@ -97,7 +97,7 @@ class Login extends Component {
 
                                             <div className="mt-5 text-center">
                                                 <p>Don't have an account ? <Link to="/register" className="font-weight-medium text-primary"> Register </Link> </p>
-                                                <p>© 2020 Minesense. Crafted with <i className="mdi mdi-heart text-danger"></i> by Hermit Labs</p>
+                                                <p>© 2020 Nazox. Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesdesign</p>
                                             </div>
                                         </div>
 

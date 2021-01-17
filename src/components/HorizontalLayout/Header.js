@@ -104,19 +104,19 @@ class Header extends Component {
                         <div className="navbar-brand-box">
                             <Link to="/" className="logo logo-dark">
                                 <span className="logo-sm">
-                                    <img src={logoSmDark} alt="" height="30"/>
+                                    <img src={logoSmDark} alt="" height="22"/>
                                 </span>
                                 <span className="logo-lg">
-                                    <img src={logoDark} alt="" height="30"/>
+                                    <img src={logoDark} alt="" height="20"/>
                                 </span>
                             </Link>
 
                             <Link to="/" className="logo logo-light">
                                 <span className="logo-sm">
-                                    <img src={logoSmLight} alt="" height="30"/>
+                                    <img src={logoSmLight} alt="" height="22"/>
                                 </span>
                                 <span className="logo-lg">
-                                    <img src={logoLight} alt="" height="30"/>
+                                    <img src={logoLight} alt="" height="20"/>
                                 </span>
                             </Link>
                         </div>

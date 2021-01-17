@@ -8,11 +8,11 @@ const Footer = () => {
                   <Container fluid>
                         <Row>
                             <Col sm={6}>
-                                {new Date().getFullYear()} © MineSense.
+                                {new Date().getFullYear()} © Nazox.
                             </Col>
                             <Col sm={6}>
                                 <div className="text-sm-right d-none d-sm-block">
-                                    Crafted with <i className="mdi mdi-heart text-danger"></i> by HermitLabs
+                                    Crafted with <i className="mdi mdi-heart text-danger"></i> by Themesdesign
                                 </div>
                             </Col>
                         </Row>

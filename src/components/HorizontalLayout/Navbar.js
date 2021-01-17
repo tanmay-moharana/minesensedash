@@ -73,7 +73,7 @@ class Navbar extends Component {
                                 <ul className="navbar-nav">
 
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/">
+                                        <Link className="nav-link" to="/dashboard">
                                             <i className="ri-dashboard-line mr-2"></i> {this.props.t('Dashboard')}
                                         </Link>
                                     </li>
@@ -89,34 +89,34 @@ class Navbar extends Component {
                                             <Row>
                                                 <Col lg={4}>
                                                     <div>
-                                                        <Link to="ui-alerts" className="dropdown-item">{this.props.t('Alerts')}</Link>
-                                                        <Link to="ui-buttons" className="dropdown-item">{this.props.t('Buttons')}</Link>
-                                                        <Link to="ui-cards" className="dropdown-item">{this.props.t('Cards')}</Link>
-                                                        <Link to="ui-carousel" className="dropdown-item">{this.props.t('Carousel')}</Link>
-                                                        <Link to="ui-dropdowns" className="dropdown-item">{this.props.t('Dropdowns')}</Link>
-                                                        <Link to="ui-grid" className="dropdown-item">{this.props.t('Grid')}</Link>
-                                                        <Link to="ui-images" className="dropdown-item">{this.props.t('Images')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Alerts')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Buttons')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Cards')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Carousel')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Dropdowns')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Grid')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Images')}</Link>
                                                     </div>
                                                 </Col>
                                                 <Col lg={4}>
                                                     <div>
-                                                        <Link to="ui-lightbox" className="dropdown-item">{this.props.t('Lightbox')}</Link>
-                                                        <Link to="ui-modals" className="dropdown-item">{this.props.t('Modals')}</Link>
-                                                        <Link to="ui-rangeslider" className="dropdown-item">{this.props.t('Range Slider')}</Link>
-                                                        <Link to="ui-roundslider" className="dropdown-item">{this.props.t('Round slider')}</Link>
-                                                        <Link to="ui-session-timeout" className="dropdown-item">{this.props.t('Session Timeout')}</Link>
-                                                        <Link to="ui-progressbars" className="dropdown-item">{this.props.t('Progress Bars')}</Link>
-                                                        <Link to="ui-sweet-alert" className="dropdown-item">{this.props.t('Sweet-Alert')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Lightbox')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Modals')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Range Slider')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Round slider')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Session Timeout')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Progress Bars')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Sweet-Alert')}</Link>
                                                     </div>
                                                 </Col>
                                                 <Col lg={4}>
                                                     <div>
-                                                        <Link to="ui-tabs-accordions" className="dropdown-item">{this.props.t('Tabs & Accordions')}</Link>
-                                                        <Link to="ui-typography" className="dropdown-item">{this.props.t('Typography')}</Link>
-                                                        <Link to="ui-video" className="dropdown-item">{this.props.t('Video')}</Link>
-                                                        <Link to="ui-general" className="dropdown-item">{this.props.t('General')}</Link>
-                                                        <Link to="ui-rating" className="dropdown-item">{this.props.t('Rating')}</Link>
-                                                        <Link to="ui-notifications" className="dropdown-item">{this.props.t('Notifications')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Tabs & Accordions')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Typography')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Video')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('General')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Rating')}</Link>
+                                                        <Link to="#" className="dropdown-item">{this.props.t('Notifications')}</Link>
                                                     </div>
                                                 </Col>
                                             </Row>
@@ -130,8 +130,8 @@ class Navbar extends Component {
                                         </Link>
                                         <div className={classname("dropdown-menu", { show: this.state.appState })} aria-labelledby="topnav-apps">
 
-                                            <Link to="calendar" className="dropdown-item">{this.props.t('Calendar')}</Link>
-                                            <Link to="apps-chat" className="dropdown-item">{this.props.t('Chat')}</Link>
+                                            <Link to="#" className="dropdown-item">{this.props.t('Calendar')}</Link>
+                                            <Link to="#" className="dropdown-item">{this.props.t('Chat')}</Link>
                                             <div className="dropdown">
                                                 <Link  onClick={e => {
                                                         e.preventDefault();
@@ -141,8 +141,8 @@ class Navbar extends Component {
                                                     {this.props.t('Email')} <div className="arrow-down"></div>
                                                 </Link>
                                                 <div className={classname("dropdown-menu", { show: this.state.emailState })} aria-labelledby="topnav-email">
-                                                    <Link to="email-inbox" className="dropdown-item">{this.props.t('Inbox')}</Link>
-                                                    <Link to="email-read" className="dropdown-item">{this.props.t('Read Email')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Inbox')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Read Email')}</Link>
                                                 </div>
                                             </div>
                                             <div className="dropdown">
@@ -154,18 +154,18 @@ class Navbar extends Component {
                                                     {this.props.t('Ecommerce')} <div className="arrow-down"></div>
                                                 </Link>
                                                 <div className={classname("dropdown-menu", { show: this.state.ecommerceState })} aria-labelledby="topnav-ecommerce">
-                                                    <Link to="ecommerce-products" className="dropdown-item">{this.props.t('Products')}</Link>
-                                                    <Link to="ecommerce-product-detail" className="dropdown-item">{this.props.t('Product Detail')}</Link>
-                                                    <Link to="ecommerce-orders" className="dropdown-item">{this.props.t('Orders')}</Link>
-                                                    <Link to="ecommerce-customers" className="dropdown-item">{this.props.t('Customers')}</Link>
-                                                    <Link to="ecommerce-cart" className="dropdown-item">{this.props.t('Cart')}</Link>
-                                                    <Link to="ecommerce-checkout" className="dropdown-item">{this.props.t('Checkout')}</Link>
-                                                    <Link to="ecommerce-shops" className="dropdown-item">{this.props.t('Shops')}</Link>
-                                                    <Link to="ecommerce-add-product" className="dropdown-item">{this.props.t('Add Product')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Products')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Product Detail')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Orders')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Customers')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Cart')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Checkout')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Shops')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Add Product')}</Link>
                                                 </div>
                                             </div>
 
-                                            <Link to="apps-kanban-board" className="dropdown-item">{this.props.t('Kanban Board')}</Link>
+                                            <Link to="#" className="dropdown-item">{this.props.t('Kanban Board')}</Link>
                                         </div>
                                     </li>
     
@@ -182,18 +182,18 @@ class Navbar extends Component {
                                                         e.preventDefault();
                                                         this.setState({ formState: !this.state.formState });
                                                     }} className="dropdown-item dropdown-toggle arrow-none" to="/#" id="topnav-form"
-                                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    role="button" >
                                                     {this.props.t('Forms')} <div className="arrow-down"></div>
                                                 </Link>
                                                 <div className={classname("dropdown-menu", { show: this.state.formState })} aria-labelledby="topnav-form">
-                                                    <Link to="form-elements" className="dropdown-item">{this.props.t('Elements')}</Link>
-                                                    <Link to="form-validation" className="dropdown-item">{this.props.t('Validation')}</Link>
-                                                    <Link to="form-advanced" className="dropdown-item">{this.props.t('Advanced Plugins')}</Link>
-                                                    <Link to="form-editors" className="dropdown-item">{this.props.t('Editors')}</Link>
-                                                    <Link to="form-uploads" className="dropdown-item">{this.props.t('File Upload')}</Link>
-                                                    <Link to="form-xeditable" className="dropdown-item">{this.props.t('Xeditable')}</Link>
-                                                    <Link to="form-wizard" className="dropdown-item">{this.props.t('Wizard')}</Link>
-                                                    <Link to="form-mask" className="dropdown-item">{this.props.t('Mask')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Elements')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Validation')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Advanced Plugins')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Editors')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('File Upload')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Xeditable')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Wizard')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Mask')}</Link>
                                                 </div>
                                             </div>
                                             <div className="dropdown">
@@ -205,40 +205,38 @@ class Navbar extends Component {
                                                     {this.props.t('Tables')} <div className="arrow-down"></div>
                                                 </Link>
                                                 <div className={classname("dropdown-menu", { show: this.state.tableState })} aria-labelledby="topnav-table">
-                                                    <Link to="tables-basic" className="dropdown-item">{this.props.t('Basic Tables')}</Link>
-                                                    <Link to="tables-datatable" className="dropdown-item">{this.props.t('Data Tables')}</Link>
-                                                    <Link to="tables-responsive" className="dropdown-item">{this.props.t('Responsive Table')}</Link>
-                                                    <Link to="tables-editable" className="dropdown-item">{this.props.t('Editable Table')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Basic Tables')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Data Tables')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Responsive Table')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Editable Table')}</Link>
                                                 </div>
                                             </div>
                                             <div className="dropdown">
                                                 <Link  onClick={e => {
                                                         e.preventDefault();
                                                         this.setState({ chartState: !this.state.chartState });
-                                                    }} className="dropdown-item dropdown-toggle arrow-none" to="/#" id="topnav-charts"
-                                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    }} className="dropdown-item dropdown-toggle arrow-none" to="/#" id="topnav-charts">
                                                     {this.props.t('Charts')} <div className="arrow-down"></div>
                                                 </Link>
                                                 <div className={classname("dropdown-menu", { show: this.state.chartState })} aria-labelledby="topnav-charts">
-                                                    <Link to="charts-apex" className="dropdown-item">{this.props.t('Apex charts')}</Link>
-                                                    <Link to="charts-chartjs" className="dropdown-item">{this.props.t('Chartjs')}</Link>
-                                                    <Link to="charts-knob" className="dropdown-item">{this.props.t('Jquery Knob Chart')}</Link>
-                                                    <Link to="charts-sparkline" className="dropdown-item">{this.props.t('Sparkline Chart')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Apex charts')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Chartjs')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Jquery Knob Chart')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Sparkline Chart')}</Link>
                                                 </div>
                                             </div>
                                             <div className="dropdown">
                                                 <Link onClick={e => {
                                                         e.preventDefault();
                                                         this.setState({ iconState: !this.state.iconState });
-                                                    }} className="dropdown-item dropdown-toggle arrow-none" to="/#" id="topnav-icons"
-                                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    }} className="dropdown-item dropdown-toggle arrow-none" to="/#" id="topnav-icons">
                                                     {this.props.t('Icons')} <div className="arrow-down"></div>
                                                 </Link>
                                                 <div className={classname("dropdown-menu", { show: this.state.iconState })} aria-labelledby="topnav-icons">
-                                                    <Link to="icons-remix" className="dropdown-item">{this.props.t('Remix Icons')}</Link>
-                                                    <Link to="icons-materialdesign" className="dropdown-item">{this.props.t('Material Design')}</Link>
-                                                    <Link to="icons-dripicons" className="dropdown-item">{this.props.t('Dripicons')}</Link>
-                                                    <Link to="icons-fontawesome" className="dropdown-item">{this.props.t('Font awesome 5')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Remix Icons')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Material Design')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Dripicons')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Font awesome 5')}</Link>
                                                 </div>
                                             </div>
                                             <div className="dropdown">
@@ -250,8 +248,8 @@ class Navbar extends Component {
                                                     {this.props.t('Maps')} <div className="arrow-down"></div>
                                                 </Link>
                                                 <div  className={classname("dropdown-menu", { show: this.state.mapState })} aria-labelledby="topnav-map">
-                                                    <Link to="maps-google" className="dropdown-item">{this.props.t('Google Maps')}</Link>
-                                                    <Link to="maps-vector" className="dropdown-item">{this.props.t('Vector Maps')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Google Maps')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Vector Maps')}</Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -275,10 +273,10 @@ class Navbar extends Component {
                                                     {this.props.t('Authentication')} <div className="arrow-down"></div>
                                                 </Link>
                                                 <div className={classname("dropdown-menu", { show: this.state.authState })} aria-labelledby="topnav-auth">
-                                                    <Link to="auth-login" className="dropdown-item">{this.props.t('Login')}</Link>
-                                                    <Link to="auth-register" className="dropdown-item">{this.props.t('Register')}</Link>
-                                                    <Link to="auth-recoverpw" className="dropdown-item">{this.props.t('Recover Password')}</Link>
-                                                    <Link to="auth-lock-screen" className="dropdown-item">{this.props.t('Lock Screen')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Login')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Register')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Recover Password')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Lock Screen')}</Link>
                                                 </div>
                                             </div>
                                             <div className="dropdown">
@@ -290,14 +288,14 @@ class Navbar extends Component {
                                                     {this.props.t('Utility')} <div className="arrow-down"></div>
                                                 </Link>
                                                 <div className={classname("dropdown-menu", { show: this.state.utilityState })} aria-labelledby="topnav-utility">
-                                                    <Link to="pages-starter" className="dropdown-item">{this.props.t('Starter Page')}</Link>
-                                                    <Link to="pages-maintenance" className="dropdown-item">{this.props.t('Maintenance')}</Link>
-                                                    <Link to="pages-comingsoon" className="dropdown-item">{this.props.t('Coming Soon')}</Link>
-                                                    <Link to="pages-timeline" className="dropdown-item">{this.props.t('Timeline')}</Link>
-                                                    <Link to="pages-faqs" className="dropdown-item">{this.props.t('FAQs')}</Link>
-                                                    <Link to="pages-pricing" className="dropdown-item">{this.props.t('Pricing')}</Link>
-                                                    <Link to="pages-404" className="dropdown-item">{this.props.t('Error 404')}</Link>
-                                                    <Link to="pages-500" className="dropdown-item">{this.props.t('Error 500')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Starter Page')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Maintenance')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Coming Soon')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Timeline')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('FAQs')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Pricing')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Error 404')}</Link>
+                                                    <Link to="#" className="dropdown-item">{this.props.t('Error 500')}</Link>
                                                 </div>
                                             </div>
                                         </div>

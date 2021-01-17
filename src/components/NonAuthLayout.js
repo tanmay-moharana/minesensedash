@@ -16,7 +16,7 @@ class NonAuthLayout extends Component {
         let currentage = this.capitalizeFirstLetter(this.props.location.pathname);
 
         document.title =
-          currentage + " | Minesense - Redefining mining";
+          currentage + " | Nazox - Responsive Bootstrap 4 Admin Dashboard";
     }
     render() {
         return <React.Fragment>
