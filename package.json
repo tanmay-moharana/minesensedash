@@ -2,6 +2,7 @@
   "name": "nazox",
   "version": "2.0.0",
   "private": true,
+  "homepage": "https://tanmay-moharana.github.io/minesensedash/",
   "dependencies": {
     "@fullcalendar/bootstrap": "^4.3.0",
     "@fullcalendar/daygrid": "^4.3.0",
@@ -91,7 +92,9 @@
     "start": "react-scripts start",
     "build": "react-scripts --max_old_space_size=8000 build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"yarn build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
